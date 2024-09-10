@@ -26,15 +26,15 @@ body {
 
 .container {
     background-color: #ffffff;
-    width: 80%; /* Reduce width for smaller form */
-    max-width: 500px; /* Reduce max-width for a smaller form */
+    width: 80%; 
+    max-width: 500px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
 h1 {
-    font-size: 22px; /* Slightly smaller font size */
+    font-size: 22px; 
     margin-bottom: 10px;
     color: #333;
 }
@@ -50,14 +50,14 @@ form {
     display: flex;
     flex-direction: column;
     max-width: 2000px; /* Increase width to accommodate side-by-side layout */
-    margin: 0 auto; /* Center the form horizontally */
+    margin: 0 auto; 
 }
 
 .form-row {
     display: flex;
     justify-content: space-between;
     gap: 20px; /* Adjust gap between columns */
-    margin-bottom: 20px; /* Space below the row */
+    margin-bottom: 20px; 
 }
 
 .fieldset {
@@ -74,7 +74,7 @@ legend {
 }
 
 label {
-    margin-bottom: 4px; /* Reduced margin for a more compact look */
+    margin-bottom: 4px; 
     color: #333;
     font-size: 14px; /* Slightly smaller font size */
 }
@@ -85,11 +85,11 @@ input[type="number"],
 input[type="month"],
 input[type="file"] {
     width: 100%;
-    padding: 6px; /* Reduced padding for a smaller input field */
-    margin-bottom: 10px; /* Reduced margin for better spacing */
+    padding: 6px; 
+    margin-bottom: 10px; 
     border: 1px solid #ddd;
     border-radius: 4px;
-    font-size: 12px; /* Slightly smaller font size */
+    font-size: 12px; 
 }
 
 input[readonly] {
@@ -124,7 +124,7 @@ button[type="submit"] {
 @media (max-width: 600px) {
     .container {
         padding: 15px;
-        width: 90%; /* Adjust width for smaller screens */
+        width: 90%; 
     }
 }
 
@@ -132,7 +132,7 @@ button[type="submit"] {
 
 /* Navbar Styles */
 nav {
-    background-color: #333; /* Dark background for the navbar */
+    background-color: #333; 
     padding: 10px 20px;
     display: flex;
     justify-content: space-between; /* Space between elements */
@@ -163,8 +163,6 @@ nav {
                     color: #ffffff; /* Hover text color */
                     border-radius: 4px;
                 }
-
-/* Basic reset for consistent rendering across browsers */
 
 
 .login-container {
